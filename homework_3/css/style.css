@@ -1,0 +1,38 @@
+*{
+	color:black;
+} 
+* ul li a{
+	color:blueviolet;
+}
+ul.nav li{
+	color:blue;
+}
+ul.nav a{
+	color: darkgreen;
+}
+ul.nav ul a{
+	color:chocolate;
+} 
+.blog p{
+	color:black;
+}
+main h2{
+	color:dodgerblue;
+}
+.heading.heading-text{
+	color:deeppink;
+}
+#blog-first > p{
+	color:cadetblue;
+}
+#blog-third ~ p{
+	color:red;
+}
+.blog-second-text + p{
+	color:darkorange;
+}
+.blog-fifth-link, 
+.item a, 
+.blog-second-link{
+	color:darkblue;
+}
