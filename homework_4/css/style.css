@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@font-face{
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{
+	font-family: "CircularStd";
+	font-weight: 400;
+}
+.lato-font-bold{
+	font-family: "Lato";
+	font-weight: 700;
+}
+.lato-font-regular{
+	font-family: "Lato";
+	font-weight: 500;
+}
+.lato-font-black{
+	font-family: "Lato";
+	font-weight: 900;
+}
+.title{
+	font-family: "Roboto";
+	font-weight: 900;
+}
+header ul li a{
+	font-family: "Roboto";
+	font-weight: 400;
+}
+header ul li a.first-link{
+	font-family: "Roboto";
+	font-weight: 700;
+}
+p{
+	color:aqua;
+}
+p{
+	color:black;
+}
+#article{
+	color:darkorange;
+}
+.content.item{
+	color:blue;
+}
+p.content{
+	color:darkgray;
+}
+.content{
+	color:rgb(74, 155, 220) !important;
+}
