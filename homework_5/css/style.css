@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); 
+@font-face{
+	font-family: "AdigianaUltra";
+	src: url("../fonts/AdigianaUltra.woff2") format("woff2"), url("../fonts/AdigianaUltra.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+}
+@font-face{
+	font-family: "AukimExtraBold";
+	src: url("../fonts/AukimExtraBold.woff2") format("woff2"), url("../fonts/AukimExtraBold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+body{
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+.title{
+	font-family: 'Lobster', cursive;
+}
+h1.title{
+	font-family: "AukimExtraBold", sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+}
+h2.title{
+	font-size: 30px;
+	text-indent: 30px;
+	letter-spacing: 5px;
+}
+.block-nav{
+	text-align: center;
+	text-transform: capitalize;
+}
+.block-nav span{
+	font-size: 22px;
+}
+.block-question{
+	font-family: "AdigianaUltra";
+	font-size: 25px;
+	text-align: right;
+}
+.block-nav>ol li a{
+	color:brown;
+	text-decoration: underline;
+}
+.title~ul{
+	font-style: italic;
+}
+.title+p{
+	color:rgba(223, 93, 6, 0.624);
+}
+.container-text.decoration p{
+	text-decoration: line-through;
+}
+.container-text.decoration .title+p{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.container-text.decoration .block-question{
+	text-decoration: underline;
+	text-shadow: 1px 1px 5px rgb(164, 234, 34);
+	text-transform: lowercase;
+	white-space: nowrap;
+}
+.word-decor{
+	word-spacing: 20px;
+	text-align: left;
+	text-decoration: overline;
+}
+p{
+	text-indent: 15px;
+}
+.section-height{
+	line-height: 50px;
+}
+.block{
+	background-color: aquamarine;
+	width: 500px;
+	padding: 20px 50px 25px;
+}
+.inline{
+	background-color: rgb(16, 187, 48);
+}
+.block-text{
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	background-color:blanchedalmond;
+	width: 50%;
+}
+.block-info{
+	padding: 10%;
+	background-color:deepskyblue;
+}
+.block-about{
+	background-color:darksalmon;
+	margin: 30px;
+}
