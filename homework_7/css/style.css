@@ -1,0 +1,42 @@
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.about-us{
+	background-color:darkcyan;
+}
+.about-us__container{
+	background-color:khaki;
+}
+.adventages{
+	background-color:aquamarine;
+}
+.adventages__container{
+	background-color:orange;
+} 
+/* background */
+.block__container{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.block__background{
+	padding: 15px;
+	/* background-color: coral;
+	background-image: url("../img/img_2.jpg"); */
+	background: coral url("../img/img_2.jpg") center / cover no-repeat scroll;
+	/* background-repeat: repeat-y; */
+	height: 400px;
+	/* background-position: 20px 20px; */
+	 /* background-attachment: scroll; */
+	/* background-size: auto 500px; */
+	/* background-size: contain; */
+	/* background-size: cover; */
+} 
+.block__gradient{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(219,227,20,1) 35%, rgba(0,212,255,1) 100%);
+}
+.block__several{
+	background: url(../img/img_2.jpg) no-repeat 0 0 / 200px,url(../img/img_3.jpg) no-repeat right top / 600px, yellowgreen;
+	height: 800px;
+}
